@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Run the worst case(of reversed order numbers) and the best case(of ordered numbers). Because it has bifferent time complexity based on the case it had two distinct ranges of completion times.
+
+sort2 uses: merge sort
+
+How do you know?: Based on average time of the best case of bubble sort(0.073-0.1), time complexity being the lowest and the same, we expect the times to be around there and the same for all cases.
+
+sort3 uses: selection sort
+
+How do you know?: Based on average times of the worst cases(around 0.180-0.300s) for each algorithm, and because it has the highest and same time complexity for all cases.
