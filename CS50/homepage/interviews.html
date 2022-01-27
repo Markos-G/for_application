@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link href="buttons.css" rel="stylesheet">
+        <link href="dropdown.css" rel="stylesheet">
+        <script src="interact.js"></script>
+        <title>The interviews</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="main">Crime scene</h1>
+            <p>You start by ckecking again your log files. The next passage seems promising:
+               <br>
+               <q>The theft of the CS50 duck took place at <b>10:15am</b> at the Humphrey Street bakery.
+               Interviews were conducted today with <b>three witnesses</b> who were present at the time.
+               Each of their interview transcripts mentions <b>the bakery</b>.</q>
+               <br>
+               You find them to get their side of story.
+            </p>
+            <h3 style="background-color:rgb(153, 204, 255)"><center>Interviews</center></h3>
+            <p>
+               <q>Sometime <b>within ten minutes</b> of the theft, I saw the thief get into a car in the bakery parking lot and <b>drive away</b>.
+               If you have security footage from the bakery parking lot, you might want to look for cars that left the parking lot in that time frame.</q>
+            </p>
+            <p>
+               <q>I don't know the thief's name, but it was someone I recognized. Earlier this morning, before I arrived at Emma's bakery
+               I was walking by <b>the ATM on Leggett Street</b> and saw the thief there withdrawing some money.</q>
+            </p>
+            <p>
+               <q>As the thief was leaving the bakery, they <b>called someone</b> who talked to them for <b>less than a minute</b>.
+               In the call, I heard the thief say that they were planning to take the <b>earliest flight out of Fiftyville tomorrow</b>.
+               The thief then asked the person on the other end of the phone to purchase the flight ticket.</q>
+            </p>
+            <hr>
+            <button class="back" onclick="location.href='index.html'"><span>Back </span></button>
+            <button class="next" onclick="location.href='bakery-atm.html'"><span>Next </span></button>
+
+            <div class="dropdown" style='float:right'>
+            <button onclick="myFunction()" class="dropbtn">Jump to</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Police Dept.</a>
+                    <a href="interviews.html">Interviews</a>
+                    <a href="bakery-atm.html">Bakery/ATM</a>
+                    <a href="airport.html">Airport</a>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-light text-center text-lg-start">
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                Borrowed word for:
+                <a class="text-dark" href="https://www.w3schools.com/howto/howto_css_animate_buttons.asp">Button animation</a>
+                <a class="text-dark" href="https://www.w3schools.com/howto/howto_js_dropdown.asp">Dropdown menus</a>
+                <a class="text-dark" href="https://cs50.harvard.edu/x/2022/psets/7/fiftyville/">Story</a>
+                <a class="text-dark" href="https://www.123rf.com/photo_117258098_seamless-pattern-with-yellow-duck-isolated-on-blue-background.html?vti=m66yrti8mqun8et5fd-1-9">DUCKS</a>
+            </div>
+        </footer>
+    </body>
+</html>

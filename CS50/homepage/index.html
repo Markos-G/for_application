@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link href="buttons.css" rel="stylesheet">
+        <link href="dropdown.css" rel="stylesheet">
+        <script src="interact.js"></script>
+        <title>Police Department</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="main">Crime scene</h1>
+            <hr>
+            <h3 style="background-color:rgb(153, 204, 255)">The heinous crime</h3>
+            <p> The CS50 Duck has been stolen! The town of Fiftyville has called upon you to solve the mystery of the stolen duck.
+                Authorities believe that the thief stole the duck and then, shortly afterwards,
+                took a flight out of town with the help of an accomplice. Your goal is to identify:
+            </p>
+            <ul class="list-group">
+            <li class="list-group-item list-group-item-primary">Who the thief is</li>
+            <li class="list-group-item list-group-item-secondary">What city the thief escaped to</li>
+            <li class="list-group-item list-group-item-success">Who the thief’s accomplice who helped them escape</li>
+            </ul>
+            <p style="padding:-1px background-color:transparent"></p>
+            <p>All you know is that the theft took place on July 28, 2021 and that it took place on Humphrey Street.</p>
+            <hr>
+            <button class="next" onclick="location.href='interviews.html'"><span>Start </span></button>
+            <div class="dropdown" style='float:right'>
+            <button onclick="myFunction()" class="dropbtn">Jump to</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Police Dept.</a>
+                    <a href="interviews.html">Interviews</a>
+                    <a href="bakery-atm.html">Bakery/ATM</a>
+                    <a href="airport.html">Airport</a>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-light text-center text-lg-start">
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                Borrowed word for:
+                <a class="text-dark" href="https://www.w3schools.com/howto/howto_css_animate_buttons.asp">Button animation</a>
+                <a class="text-dark" href="https://www.w3schools.com/howto/howto_js_dropdown.asp">Dropdown menus</a>
+                <a class="text-dark" href="https://cs50.harvard.edu/x/2022/psets/7/fiftyville/">Story</a>
+                <a class="text-dark" href="https://www.123rf.com/photo_117258098_seamless-pattern-with-yellow-duck-isolated-on-blue-background.html?vti=m66yrti8mqun8et5fd-1-9">DUCKS</a>
+            </div>
+        </footer>
+    </body>
+</html>

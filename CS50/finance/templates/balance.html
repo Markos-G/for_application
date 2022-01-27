@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Cash balance
+{% endblock %}
+
+{% block main %}
+    <form action="/balance" method="post">
+        <div class="mb-3">
+            <select name="cashtype"  onchange="showDiv('hidden_div', this)" class="form-select mx-auto" aria-label="Default select example" style="width:225px;text-align:center;">
+                <option value="blank" selected>Select menu</option>
+                    <option value="add">Add</option>
+                    <option value="remove">Remove</option>
+                    <option value="rmvall">Remove ALL</option>
+            </select>
+        </div>
+        <div class="mb-3" id="hidden_div">
+            <input autocomplete="off" class="form-control mx-auto w-auto" id="amount" name="amount" placeholder="Cash" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Complete</button>
+    </form>
+    <script>
+        function showDiv(divId, element)
+            {
+                document.getElementById(divId).style.display = element.value != 'rmvall' ? 'block' : 'none';
+            }
+    </script>
+    <div style="padding:10px"></div>
+    <div>
+        <table class="table">
+            <caption>Cash added</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Cash balance</th>
+                    <th scope="col">New cash balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{oldcsh | usd}}</td>
+                    <td>{{newcsh | usd}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

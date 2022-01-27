@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <form action="/buy" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="stock" name="symbol" placeholder="Stock" type="text">
+        </div>
+        <div class="mb-3">
+            <input autocomplete="off" class="form-control mx-auto w-auto" id="shares" name="shares" placeholder="# of shares" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Buy</button>
+    </form>
+    <div style="padding:10px"></div>
+    <div>
+        <table class="table">
+            <caption>Last buy transaction</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Symbol</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Shares / Cost</th>
+                    <th scope="col">Account Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{smbl}}</td>
+                    <td>{{cmpn}}</td>
+                    <td>{{prc | usd}}</td>
+                    <td>{{shrs}} / {{cost | usd}}</td>
+                    <td>{{cash | usd}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

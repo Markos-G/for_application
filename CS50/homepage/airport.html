@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link href="buttons.css" rel="stylesheet">
+        <link href="dropdown.css" rel="stylesheet">
+        <script src="interact.js"></script>
+        <title>The airport</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="main"><del>Crime scene</del><br>Solved</h1>
+            <hr>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Destination</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Bruce</td>
+                    <td>Thief</td>
+                    <td>New York City</td>
+                    <td>Arrested</td>
+                </tr>
+                <tr>
+                    <td>Robin</td>
+                    <td>Accomplice</td>
+                    <td>Unknown</td>
+                    <td>On the run</td>
+                </tr>
+            </table>
+            <p style="padding:3px background-color:transparent"></p>
+            <p>
+                <q>Stick'em up. This is the end Bruce. You thought you here gonna get away?</q> you yelled on top on your lungs.
+                <br>
+                <q>I would have gotten away with it, if it weren't for you meddling kids and your programming courses.</q>
+            </p>
+            <hr>
+            <button class="back" onclick="location.href='bakery-atm.html'"><span>Back </span></button>
+            <button class="next" onclick="location.href='index.html'"><span>Home </span></button>
+            <div class="dropdown" style='float:right'>
+            <button onclick="myFunction()" class="dropbtn">Jump to</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Police Dept.</a>
+                    <a href="interviews.html">Interviews</a>
+                    <a href="bakery-atm">Bakery/ATM</a>
+                    <a href="airport.html">Airport</a>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-light text-center text-lg-start">
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                Borrowed word for:
+                <a class="text-dark" href="https://www.w3schools.com/howto/howto_css_animate_buttons.asp">Button animation</a>
+                <a class="text-dark" href="https://www.w3schools.com/howto/howto_js_dropdown.asp">Dropdown menus</a>
+                <a class="text-dark" href="https://cs50.harvard.edu/x/2022/psets/7/fiftyville/">Story</a>
+                <a class="text-dark" href="https://www.123rf.com/photo_117258098_seamless-pattern-with-yellow-duck-isolated-on-blue-background.html?vti=m66yrti8mqun8et5fd-1-9">DUCKS</a>
+            </div>
+        </footer>
+    </body>
+</html>

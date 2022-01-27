@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+
+    <div style="padding:10px"></div>
+    <div>
+        <table class="table">
+            <caption>Portfolio</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Symbol</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Shares / Cost</th>
+                    <th scope="col">Cash /Account Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>{{cash | usd}} / {{total | usd}}</td>
+                <tr>
+                {% for i in range(n) %}
+                <tr>
+                    <td>{{smbl[i]}}</td>
+                    <td>{{cmpn[i]}}</td>
+                    <td>{{prc[i] | usd}}</td>
+                    <td>{{shrs[i]}} / {{cost[i] | usd}}</td>
+                    <td></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

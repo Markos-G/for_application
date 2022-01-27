@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Settings
+{% endblock %}
+
+{% block main %}
+    <form action="/settings" method="post">
+        <div class="mb-3">
+            <select id="test" name="action" onchange="showDiv('hidden_div', this)" class="form-select mx-auto" aria-label="Default select example" style="width:225px;text-align:center;">
+                <option value="blank" selected>Action</option>
+                <option value="changepass">Change password</option>
+                <option value="dltacc">Delete account</option>
+            </select>
+            <div class="mb-3" id="hidden_div" style="padding:10px">
+                <input autocomplete="off" class="form-control mx-auto w-auto" id="password" name="newpassword" placeholder="New password" type="password">
+                <div class="mb-3" style="padding:10px">
+                <input autocomplete="off" class="form-control mx-auto w-auto" id="confirmation" name="confirmation" placeholder="Confirm new password" type="password">
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Complete</button>
+    </form>
+    <script>
+        function showDiv(divId, element)
+            {
+                document.getElementById(divId).style.display = element.value == 'changepass' ? 'block' : 'none';
+            }
+    </script>
+
+{% endblock %}

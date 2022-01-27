@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sell
+{% endblock %}
+
+{% block main %}
+    <form action="/sell" method="post">
+        <div class="mb-3">
+            <select name="symbol" class="form-select mx-auto" aria-label="Default select example" style="width:225px;text-align:center;">
+                <option value="blank" selected>Select menu</option>
+                {% for i in range(n) %}
+                    <option value="{{stcks[i]}}">{{stcks[i]}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="mb-3">
+            <input autocomplete="off" class="form-control mx-auto w-auto" id="shares" name="shares" placeholder="# of shares" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Sell</button>
+    </form>
+    <div style="padding:10px"></div>
+    <div>
+        <table class="table">
+            <caption>Last sell transaction</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Symbol</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Shares / Cost</th>
+                    <th scope="col">Account Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{smbl}}</td>
+                    <td>{{cmpn}}</td>
+                    <td>{{prc | usd}}</td>
+                    <td>{{shrs}} / {{cost | usd}}</td>
+                    <td>{{cash | usd}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

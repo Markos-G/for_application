@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+
+    <div style="padding:10px"></div>
+    <div>
+        <table class="table">
+            <caption>History</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Type of transaction</th>
+                    <th scope="col">Symbol</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Shares</th>
+                    <th scope="col">Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in range(n) %}
+                <tr>
+                    <td>{{tp[i]}}</td>
+                    <td>{{smbl[i]}}</td>
+                    <td>{{cmpn[i]}}</td>
+                    <td>{{prc[i] | usd}}</td>
+                    <td>{{shrs[i]}}</td>
+                    <td>{{tm[i]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

@@ -1,0 +1,41 @@
+body {
+    background-image: url('duck.webp');
+}
+
+#main {
+    background-color:rgb(255, 99, 71);
+    font-family:'Courier New';
+    text-align:center;
+    opacity:0.95;
+    padding:50px
+}
+
+p {
+    background-color:rgb(153, 204, 255);
+}
+
+q {
+    font-family:'Courier New';
+    font-style:italic;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FDDF95;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    background-color:#fbcb50;
+}
+
+
+footer{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
