@@ -119,8 +119,8 @@ print("- %s sec -" % (time.time() - start))
 
 # Complete grid with solution and print it
 for sol in solution:
-      grid[sol[0]][sol[1]] = sol[2]
+    grid[sol[0]][sol[1]] = sol[2]
 
 for row in grid:
-	print(row,end='\n')
+    print(row,end='\n')
 
