@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+    We Gaming
+{% endblock %}
+
+
+{% block main %}
+<div class="grid">
+    <table>
+        <tbody>
+            {% for i in range(9) %}
+                <tr>
+                    {% for j in range(9) %}
+                        <td>
+                            <div class="cell">
+                                {{n[i][j]}}
+                            </div>
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table> 
+
+    <form action="/answer" method="post" style="float:right; padding-top:15px">
+        <button type="submit" class="btn btn-outline-secondary">
+            Submit
+        </button>
+    </form>
+</div>
+
+{% endblock %}

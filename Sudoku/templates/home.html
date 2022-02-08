@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sudoku
+{% endblock %}
+
+
+{% block main %}
+
+<div class="grid">
+    <table>
+        <tbody>
+            {% for i in range(9) %}
+                <tr>
+                    {% for j in range(9) %}
+                        <td>
+                            <div class="cell">
+                                {{n}}
+                            </div>
+                        </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table> 
+</div>
+
+
+{% endblock %}
