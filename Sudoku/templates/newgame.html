@@ -33,19 +33,15 @@
 </form>
 <script>
     var empty = document.getElementsByTagName("h3");
-
     for (let step = 0; step < 81; step++) {
-        var elem = document.getElementById(step);
-        function disbtn(e,s) { 
-            if ( e.textContent != '_' ) {
-                console.log(s)
-                s.setAttribute("disabled",false);
-            } else {
-                s.removeAttribute("disabled");
+        var inpt = document.getElementById(step);
+        function disinpt(x,y) { 
+            if ( x.textContent != '_' ) {
+                y.disabled = true;
             }
         }
-        disbtn(empty[step],elem)
-        // console.log(empty[step]);
+        disinpt(empty[step], inpt)
+        // console.log(inpt);
     };
 
         // console.log(empty.textContent)
