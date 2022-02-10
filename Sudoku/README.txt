@@ -11,5 +11,5 @@ For site:
 Things completed - Make MySQL database and import the puzzles, solutions from https://www.kaggle.com/bryanpark/sudoku.
                     -- The asnwer will be checked against the algorithm X
                  - Layout of site. 
-Under constuction - Remains to allow user to type and submit asnwer
+Under constuction - Remains to allow user submit asnwer
                   - Remain to check asnwer with algorithm X
