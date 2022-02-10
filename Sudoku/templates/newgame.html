@@ -1,34 +1,55 @@
 {% extends "layout.html" %}
 
-
 {% block title %}
     We Gaming
 {% endblock %}
 
-
 {% block main %}
-<div class="grid">
-    <table>
-        <tbody>
-            {% for i in range(9) %}
-                <tr>
-                    {% for j in range(9) %}
-                        <td>
-                            <div class="cell">
-                                {{n[i][j]}}
-                            </div>
-                        </td>
-                    {% endfor %}
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table> 
-
-    <form action="/answer" method="post" style="float:right; padding-top:15px">
-        <button type="submit" class="btn btn-outline-secondary">
+<form action="/asner" method="post">
+    <div class="grid">
+        <table>
+            <tbody>
+                {% for i in range(9) %}
+                    <tr>
+                        {% for j in range(9) %}
+                            <td>
+                                <div class="cell">
+                                    <h3 >{{n[i][j]}}</h3>
+                                    <input id="{{ids[j+i*9]}}" type="text" maxlength="1" name = "{{ids[j+i*9]}}">
+                                </div>
+                            </td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table> 
+    </div>
+    <div style="padding: 3px"></div>
+    <div>
+        <button type="submit" class="btn btn-outline-secondary" style ="margin-left: 398px;">
             Submit
         </button>
-    </form>
-</div>
+    </div>
+</form>
+<script>
+    var empty = document.getElementsByTagName("h3");
+
+    for (let step = 0; step < 81; step++) {
+        var elem = document.getElementById(step);
+        function disbtn(e,s) { 
+            if ( e.textContent != '_' ) {
+                console.log(s)
+                s.setAttribute("disabled",true);
+            } else {
+                s.removeAttribute("disabled");
+            }
+        }
+        disbtn(empty[step],elem)
+        // console.log(empty[step]);
+    };
+
+        // console.log(empty.textContent)
+</script>
+
 
 {% endblock %}
