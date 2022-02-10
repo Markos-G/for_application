@@ -14,7 +14,7 @@
                         {% for j in range(9) %}
                             <td>
                                 <div class="cell">
-                                    <h3 >{{n[i][j]}}</h3>
+                                    <h3>{{n[i][j]}}</h3>
                                     <input id="{{ids[j+i*9]}}" type="text" maxlength="1" name = "{{ids[j+i*9]}}">
                                 </div>
                             </td>
@@ -39,7 +39,7 @@
         function disbtn(e,s) { 
             if ( e.textContent != '_' ) {
                 console.log(s)
-                s.setAttribute("disabled",true);
+                s.setAttribute("disabled",false);
             } else {
                 s.removeAttribute("disabled");
             }
