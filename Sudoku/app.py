@@ -12,13 +12,13 @@ from db import create_connection ,fetch_query
 from sudoku import fill_matrix,solve
 
 
-# create and configure the app
+# create and configure session
 app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-# a simple page that says hello
+
 @app.route('/')
 def home():
     return render_template("home.html",n=0)
@@ -27,6 +27,8 @@ def home():
 @app.route('/newgame')
 def newgame():
 
+    # config.txt is a seperate file in directory where the credentials for the database are stored
+    # Can be used env variables instead
     config={}
     with open('config.txt','r') as f:
         config['host_name'] = f.readline().strip()
@@ -45,11 +47,7 @@ def newgame():
             else:
                 grid[i][j] = puzzle[k]
             k += 1
-
     session['grid'] = grid
-
-    # for row in grid:
-    #     print(row,end='\n')
 
     ids = [x for x in range(81)]
 
@@ -67,26 +65,24 @@ def submit():
     solution = solve(X, Y, sol=[])
     for sol in solution:
         grid[sol[0]][sol[1]] = sol[2]
-    # for row in grid:
-    #     print(row,end='\n')
 
     inpts={}
     for cell in range(81):
         number = request.form.get(str(cell))
         if number is not None:
             inpts[cell] = number
-    # print (inpts)      
+     
     user_grid = session['grid']
     for key,value in inpts.items():
         row,col = divmod(key,9)
         user_grid[row][col] = value
-    # print (user_grid)
+
     err=[]
     for key,value in inpts.items():
         row,col = divmod(key,9)
         if value != str(grid[row][col]):
             err.append(key)
-    print (err)
 
     ids = [x for x in range(81)]
+    
     return render_template("submit.html", n=user_grid, ids=ids ,err=err)
