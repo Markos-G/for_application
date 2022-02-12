@@ -14,7 +14,6 @@ def fill_matrix(grid):
     			("B_xk", x,k)]
 
     # Initial X matrix
-    X={}
     X = ( {('P_ij', *pos):[] for pos in product(range(N), range(N))} |
     	{('R_ik', *pos):[] for pos in product(range(N), range(1,N+1))} |
     	{('C_jk', *pos):[] for pos in product(range(N), range(1,N+1))} |
@@ -81,11 +80,3 @@ def solve(T, S, sol=[]):
                         T[key].append(row)
 
             del sol[-1]
-
-# X,Y = fill_matrix(grid)
-# solution = solve(X, Y)
-# for sol in solution:
-#     grid[sol[0]][sol[1]] = sol[2]
-# for row in grid:
-#     print(row,end='\n')
-
