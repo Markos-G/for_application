@@ -8,8 +8,8 @@ from flask_session import Session
 
 from random import randint
 
-from db import create_connection ,fetch_query
-from sudoku import fill_matrix,solve
+from db import create_connection, fetch_query
+from sudoku import fill_matrix, solve
 
 
 # create and configure session
@@ -28,7 +28,7 @@ def home():
 def newgame():
 
     # config.txt is a seperate file in directory where the credentials for the database are stored
-    # Can be used env variables instead
+    # env variables can be used instead
     config={}
     with open('config.txt','r') as f:
         config['host_name'] = f.readline().strip()
