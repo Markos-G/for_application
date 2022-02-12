@@ -5,5 +5,5 @@ It is accompanied my a .pdf file where the whole process is written.
 
 
 The other files are for a site where
-from a database of 1_000_000 sudokus it generates one 
-and the user can solve it.
+from a database of 1_000_000 sudokus(from https://www.kaggle.com/bryanpark/sudoku)
+it generates one and the user can solve it.
