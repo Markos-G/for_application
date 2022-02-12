@@ -1,0 +1,33 @@
+.grid {
+    padding: 2px;
+    height: 473px;
+    width: 473px;
+    background-color: grey;
+}
+
+
+.cell {
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    background-color: rgb(104, 200, 245);
+    text-align: center;
+
+}
+
+
+input[type="text"]
+{
+    background: transparent;
+    /* margin-top: 8px; */
+    height: 35px;
+    width: 37px;
+    text-align: center;
+    font-size: 29px;
+    color: #563f46;
+    font-weight: 700;
+    position: relative;
+    top:-40px;
+    z-index: 2;
+}
+
