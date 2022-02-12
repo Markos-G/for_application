@@ -1,4 +1,4 @@
-The file sudoku.py contains the impementation of algorithm X,
+The file sdk.py contains the impementation of algorithm X,
 which is the actual solution of any sudoku grid.
 It is accompanied my a .pdf file where the whole process is written.
 
