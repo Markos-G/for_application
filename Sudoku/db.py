@@ -69,11 +69,9 @@ def execute_many_query(connection, query, args, action=''):
 def fetch_query(connection, one=False):
     cursor = connection.cursor()
     try:
-        if one:
-            # make raadnom selecton from id and system time
-            cursor.execute("""SELECT puzzle from generator WHERE id = %s""", (one,))
-            row = cursor.fetchone()[0]
-            print(f"Query 'fetch one' executed successfully")
+        cursor.execute("""SELECT puzzle from generator WHERE id = %s""", (one,))
+        row = cursor.fetchone()[0]
+        print(f"Query 'fetch one' executed successfully")
         cursor.close()
         return row
     except Error as e:
