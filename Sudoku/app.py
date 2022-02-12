@@ -57,9 +57,13 @@ def newgame():
 
 @app.route('/submit', methods=['post'])
 def submit():
-
+    
     grid = session['grid']
-    grid = [[int(col) if col !='_' else 0 for col in row] for row in grid]
+    try:
+        grid = [[int(col) if col !='_' else 0 for col in row] for row in grid]
+    # on refresh there is no value '_' but ''
+    except:
+        grid = [[int(col) if col !='' else 0 for col in row] for row in grid]
 
     X,Y = fill_matrix(grid)
     solution = solve(X, Y, sol=[])
