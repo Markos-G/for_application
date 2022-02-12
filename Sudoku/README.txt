@@ -8,3 +8,4 @@ The other files are for a site where
   from a database of 1_000_000 sudokus(from https://www.kaggle.com/bryanpark/sudoku)
 With init_db we populate the database 
 We generate one and the user can solve it. Mistakes are shown after submit with red color
+  and the solution is checked against algorithm X
