@@ -41,7 +41,6 @@ def use_database(connection, db):
         print(f"The error '{e}' occurred")
 
 
-
 def execute_query(connection, query, action=''):
 
     cursor = connection.cursor()
