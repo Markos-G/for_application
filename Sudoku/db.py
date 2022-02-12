@@ -67,7 +67,7 @@ def execute_many_query(connection, query, args, action=''):
 
 
 
-def fetch_query(connection, one=False, many=0, all=False):
+def fetch_query(connection, one=False):
     cursor = connection.cursor()
     try:
         if one:
@@ -75,15 +75,6 @@ def fetch_query(connection, one=False, many=0, all=False):
             cursor.execute("""SELECT puzzle from generator WHERE id = %s""", (one,))
             row = cursor.fetchone()[0]
             print(f"Query 'fetch one' executed successfully")
-        elif many:
-            cursor.execute("""SELECT puzzle from generator WHERE ...""")
-            row = cursor.fetchmany(size=many)
-            print(f"Query 'fetch many:(size{many})' executed successfully")
-        elif all:
-            cursor.execute("""SELECT puzzle from generator""")
-            row = cursor.fetchall()
-            print (f"Query 'fetch all' executed successfully")
-
         cursor.close()
         return row
     except Error as e:
