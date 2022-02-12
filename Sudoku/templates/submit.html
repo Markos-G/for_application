@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+    Answer
+{% endblock %}
+
+{% block main %}
+    <div class="grid">
+        <table>
+            <tbody>
+                {% for i in range(9) %}
+                    <tr>
+                        {% for j in range(9) %}
+                            <td>
+                                <div class="cell" id="{{ids[j+i*9]}}">
+                                    <h3>{{n[i][j]}}</h3>
+                                </div>
+                            </td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table> 
+    </div>
+    <script>
+        var err = JSON.parse('{{err}}')
+        for (let i = 0; i < err.length; i++) {
+            document.getElementById(err[i]).style.background = 'red';
+        }
+    </script>
+
+{% endblock %}
