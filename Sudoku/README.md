@@ -11,3 +11,11 @@ Then we generate one randomly. Mistakes are shown after submition with red color
 ![Home page!](home.jpg)
 ![New Game!](game.jpg)
 ![On submit!](submit.jpg)
+
+
+To run on CMD:
+- navigate to folder
+- (optional) create [virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+- install requirements
+- create config file with database info and run init_db.py(must have MySQL) to populate the database with the sudokus
+- run FLASK_APP=app and FLASK_ENV=development and follow the link
