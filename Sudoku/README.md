@@ -1,4 +1,4 @@
-### SUdoku
+### Sudoku
 
 The file sdk.py contains the impementation of algorithm X,
 which is the solution of any sudoku grid.
