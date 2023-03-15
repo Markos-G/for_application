@@ -1,0 +1,68 @@
+C:\Users\marko\Desktop\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.exe
+C:\Users\marko\Desktop\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.deps.json
+C:\Users\marko\Desktop\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.runtimeconfig.json
+C:\Users\marko\Desktop\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.dll
+C:\Users\marko\Desktop\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.pdb
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfoInputs.cache
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfo.cs
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.dll
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\refint\ConsoleApp2.dll
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.pdb
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.genruntimeconfig.cache
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\ref\ConsoleApp2.dll
+C:\Users\marko\Desktop\oop\ConsoleApp2\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\marko\Desktop\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.CopyComplete
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.exe
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.deps.json
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.runtimeconfig.json
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.pdb
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfoInputs.cache
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfo.cs
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.CopyComplete
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\refint\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.pdb
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.genruntimeconfig.cache
+C:\Users\marko\Documents\Software Eng\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ref\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.exe
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.deps.json
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.runtimeconfig.json
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\ConsoleApp2.pdb
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfoInputs.cache
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.AssemblyInfo.cs
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.csproj.CopyComplete
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\refint\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.pdb
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ConsoleApp2.genruntimeconfig.cache
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\ConsoleApp2\obj\Debug\net6.0\ref\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\bin\Debug\net6.0\ConsoleApp2.exe
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\bin\Debug\net6.0\ConsoleApp2.deps.json
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\bin\Debug\net6.0\ConsoleApp2.runtimeconfig.json
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\bin\Debug\net6.0\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\bin\Debug\net6.0\ConsoleApp2.pdb
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\ConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\ConsoleApp2.AssemblyInfoInputs.cache
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\ConsoleApp2.AssemblyInfo.cs
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\ConsoleApp2.csproj.CopyComplete
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\refint\ConsoleApp2.dll
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\ConsoleApp2.pdb
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\ConsoleApp2.genruntimeconfig.cache
+C:\Users\marko\Documents\Software Eng\SEM1\Object Oriented Programming\oop\BookingSystem\obj\Debug\net6.0\ref\ConsoleApp2.dll
