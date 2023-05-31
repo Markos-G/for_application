@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i9ZuWJBrnYp4ALHLWP5z02BSNHQASuyO7DSc0LyTorLW0HKsNow9PO0wdnk/M6oauK86kGC17uMos59nzmm5iQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marko\\Documents\\Software Eng\\SEM2\\Advanced Software Design\\VendingMachine3.0\\VendingMachine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marko\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

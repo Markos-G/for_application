@@ -1,0 +1,27 @@
+[
+  {
+    "label": "Cola",
+    "quantity": 10,
+    "price": 1.5
+  },
+  {
+    "label": "Choc Bar",
+    "quantity": 10,
+    "price": 1.25
+  },
+  {
+    "label": "Skittles",
+    "quantity": 8,
+    "price": 1.7
+  },
+  {
+    "label": "Bikkies",
+    "quantity": 10,
+    "price": 1.25
+  },
+  {
+    "label": "Gala",
+    "quantity": 4,
+    "price": 1.25
+  }
+]
