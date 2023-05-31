@@ -1,5 +1,6 @@
 The vending application designed and developed shall do the following:
-1. Allow a user to purchase a snack.Upon purchasing a snack, the system will invite the user to enter coins only certain denominations until the amount due is met or exceeded: Upon completing the purchase, the quantity of the snack will be reduced by 1. 
+1. Allow a user to purchase a snack.Upon purchasing a snack, the system will invite the user to enter coins only certain denominations until the amount due is met or exceeded: 
+          Upon completing the purchase, the quantity of the snack will be reduced by 1. 
           The machine should sell only one snack per transaction.
           If a snack has a quantity of zero, it shall display * out of stock * and the snack cannotbe purchased.
           The Machine must start with a pool of change totalling £12 
